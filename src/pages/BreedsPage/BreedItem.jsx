@@ -9,7 +9,8 @@ const BAR_STYLE = {
 };
 
 const BreedItem = (props) => {
-  const { breed, themeColor } = useContext(ThemeContext);
+  const {breed} = props;
+  const { themeColor } = useContext(ThemeContext);
 
   return (
     <div className="flex my-6 border border-gray-300 rounded-lg overflow-clip">
