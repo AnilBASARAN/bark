@@ -9,6 +9,7 @@ const BAR_STYLE = {
 };
 
 const BreedItem = (props) => {
+  // we get breed as props
   const {breed} = props;
   const { themeColor } = useContext(ThemeContext);
 
